@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-# ==================================
-# PAGE CONFIGURATION
-# ==================================
+
 
 # ==================================
 # LOGIN PROTECTION
