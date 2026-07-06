@@ -5,11 +5,6 @@ import os
 # ==================================
 # PAGE CONFIGURATION
 # ==================================
-"""st.set_page_config(
-    page_title="LION Customers Database",
-    page_icon="👥",
-    layout="wide"
-)"""
 
 # ==================================
 # LOGIN PROTECTION

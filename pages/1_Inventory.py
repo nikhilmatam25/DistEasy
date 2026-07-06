@@ -5,11 +5,7 @@ import os
 # ==================================
 # PAGE CONFIGURATION
 # ==================================
-"""st.set_page_config(
-    page_title="LION Inventory Management",
-    page_icon="📦",
-    layout="wide"
-)"""
+
 
 # ==================================
 # LOGIN PROTECTION
