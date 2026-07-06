@@ -223,7 +223,8 @@ with right_col:
         if not forecast_df.empty and 'Product' in forecast_df.columns:
             fore_prod_names = forecast_df['Product'].tolist()
             
-        all_unique_prods = sorted([str(x) for x in set(stock_prod_names + fore_prod_names) if str(x).strip() not in ["", "nan", "NaN", "None"]])
+        all_unique_prods = sorted([str(x) for x in set(stock_prod_names + fore_prod_names)
+        if str(x).strip() not in ["", "nan", "NaN", "None"]])
         
         prod_select = st.selectbox("Product Ordered", options=["-- Select Product --"] + all_unique_prods)
         order_qty = st.number_input("Quantity Ordered", min_value=1, value=10, step=1)
